@@ -1,0 +1,88 @@
+/* Global Styles */
+.container * {
+    box-sizing: border-box;
+  }
+  
+  /* Sticky Navbar */
+  .container {
+    position: sticky;
+    top: 0;
+    width: 100vw; /* Full viewport width */
+    height: 48px;
+    background-color:#22222200; 
+    z-index: 1000;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .oyindamolaLewu {
+    color: rgb(255, 255, 255); /* Adjust based on theme */
+    font-family: "Sora-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .logoImage {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Taskbar Navigation */
+  .taskbar {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  
+  .taskbar div {
+    font-family: "Sora-SemiBold", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255); /* Adjust based on theme */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .taskbar div:hover {
+    color: #ffee00; /* Adjust hover effect */
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffee00;
+    border-radius: 30px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #ff00d4; /* Slightly darker yellow on hover */
+  }
+
+  
+  .resume {
+    color: black;
+    font-family: "Sora-SemiBold", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .download {
+    width: 18px;
+    height: 18px;
+  }
